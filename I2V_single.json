@@ -50,7 +50,7 @@
       "shift": 11.000000000000002,
       "seed": 2,
       "force_offload": true,
-      "scheduler": "dpm++_sde",
+      "scheduler": "unipc",
       "riflex_freq_index": 0,
       "denoise_strength": 1,
       "batched_cfg": false,
@@ -299,7 +299,7 @@
   },
   "245": {
     "inputs": {
-      "value": 960
+      "value": 640
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -308,7 +308,7 @@
   },
   "246": {
     "inputs": {
-      "value": 960
+      "value": 640
     },
     "class_type": "INTConstant",
     "_meta": {
