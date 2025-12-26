@@ -45,9 +45,9 @@
   },
   "128": {
     "inputs": {
-      "steps": 2,
+      "steps": 4,
       "cfg": 1.0000000000000002,
-      "shift": 4,
+      "shift": 11.000000000000002,
       "seed": 2,
       "force_offload": true,
       "scheduler": "dpm++_sde",
