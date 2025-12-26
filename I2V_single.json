@@ -56,7 +56,7 @@
       "batched_cfg": false,
       "rope_function": "comfy",
       "start_step": 0,
-      "end_step": 0,
+      "end_step": -1,
       "add_noise_to_samples": true,
       "model": [
         "122",
