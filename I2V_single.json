@@ -56,7 +56,7 @@
       "batched_cfg": false,
       "rope_function": "comfy",
       "start_step": 0,
-      "end_step": -1,
+      "end_step": 0,
       "add_noise_to_samples": true,
       "model": [
         "122",
@@ -299,7 +299,7 @@
   },
   "245": {
     "inputs": {
-      "value": 640
+      "value": 960
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -308,7 +308,7 @@
   },
   "246": {
     "inputs": {
-      "value": 640
+      "value": 960
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -317,7 +317,7 @@
   },
   "270": {
     "inputs": {
-      "value": 1000
+      "value": 6000
     },
     "class_type": "INTConstant",
     "_meta": {
@@ -335,7 +335,7 @@
         0
       ],
       "upscale_method": "lanczos",
-      "keep_proportion": "crop",
+      "keep_proportion": "total_pixels",
       "pad_color": "0, 0, 0",
       "crop_position": "center",
       "divisible_by": 16,
