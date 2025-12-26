@@ -45,9 +45,9 @@
   },
   "128": {
     "inputs": {
-      "steps": 4,
+      "steps": 2,
       "cfg": 1.0000000000000002,
-      "shift": 11.000000000000002,
+      "shift": 4.000000000000002,
       "seed": 2,
       "force_offload": true,
       "scheduler": "unipc",
